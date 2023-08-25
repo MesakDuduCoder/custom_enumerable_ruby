@@ -14,6 +14,8 @@ end
 
 list = MyList.new(1, 2, 3, 4)
 
+puts(list.each {}) #=> 1 2 3 4
+
 puts('Test #all?')
 puts('list.all? {|e| e < 5}')
 print('Output => ')
